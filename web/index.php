@@ -10,11 +10,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>CHECKER BB (PRIVADA)</title>
               <link rel="icon" type="image/png" href="foto1.html">
-    <link rel="stylesheet" href="assets/css/all.css">
+    <link rel="stylesheet" href="css/all.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800" rel="stylesheet" />
-    <link href="assets/nucleo-icons.html" rel="stylesheet" />
-    <link href="assets/stylee209e209.css" rel="stylesheet" />
-    <link href="assets/demo.css" rel="stylesheet" />
+    <link href="nucleo-icons.html" rel="stylesheet" />
+    <link href="stylee209e209.css" rel="stylesheet" />
+    <link href="demo.css" rel="stylesheet" />
   </head>
   <body> 
     <div class="col-md-16 mt-8" style="margin: auto;">
@@ -63,7 +63,7 @@
               </div>
               <div style='display: none;' id='lista_reprovadas'></div>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
-<script src="assets/jquery.min.js" type="text/javascript"></script>
+<script src="jquery.min.js" type="text/javascript"></script>
 
 <script>
 
