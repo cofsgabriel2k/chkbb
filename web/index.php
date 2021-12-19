@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>CHECKER BB (PRIVADA)</title>
               <link rel="icon" type="image/png" href="foto1.html">
-    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="all.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800" rel="stylesheet" />
     <link href="nucleo-icons.html" rel="stylesheet" />
     <link href="stylee209e209.css" rel="stylesheet" />
