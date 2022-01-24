@@ -152,23 +152,23 @@ curl_setopt($ch, CURLOPT_HTTPHEADER, array(
     'Origin: https://bagis.tdv.org',
     'Content-Type: application/x-www-form-urlencoded',
     'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
-	'cookie: TiPMix=62.2116244222092',
+	'cookie: TiPMix=24.5131369328653',
     'cookie: x-ms-routing-name=self',
-    'cookie: .AspNetCore.UserKey=c01827a2546d4ea7b97462fb73134d92',
+    'cookie: .AspNetCore.UserKey=71dd620d6acb43a59fe0d266c9bda81d',
     'cookie: .AspNetCore.Currency=949',
-    'cookie: .AspNetCore.Antiforgery.9fXoN5jHCXs=CfDJ8GSmlGuD1UlJpAkFAD7JkBjOcwbtcIFelgQSDOif1kbe_vkW-ZKyXnyZu2KU_lyc-JX_QU9_2dO-mqmXtpapYVd1nDp5Sqww8i8yMd2u8AbXCD1qRZTITh8JAuRpiLOOKYXDOAxth_13xMA-PcMSsqY',
-    'cookie: ARRAffinity=cc5c278a1be4f576d452433711bb103e3f84a5d8da4e93dfc41ea3bcb5a3b606',
-    'cookie: ARRAffinitySameSite=cc5c278a1be4f576d452433711bb103e3f84a5d8da4e93dfc41ea3bcb5a3b606',
-    'cookie: ai_user=gvKRD|2021-12-11T14:01:05.530Z',
-    'cookie: _fbp=fb.1.1639231265875.482181480',
-    'cookie: _ga=GA1.2.537767834.1639231266',
-    'cookie: _gid=GA1.2.568764616.1639231266',
-    'cookie: XSRF-TOKEN=CfDJ8GSmlGuD1UlJpAkFAD7JkBgooit71d1uj8Vxu6TActD9-zsgX4HXS98qPFWRL41YiQ9M0zSzedW4WQ4ylefYIj6qUAW47TfKp2-J5K6RYNxGhT2zb8TJeUKSnfttKvEbZk12W1bdHs2EWWe0zin-u-Q',
-    'cookie: ai.session=mhpsK|1639234330998|1639236005668.4'
+    'cookie: .AspNetCore.Antiforgery.9fXoN5jHCXs=CfDJ8GSmlGuD1UlJpAkFAD7JkBiCxPEvHaHlAwg_XG7b7NZYkmOBDBPk03GmZtyEZD8H_bi9N7TdYWFw32W12K3d-niUrPr_jA7gzXp0F0DF9a7QgJGY_ljeS-GbEp6rlZhAA4A80PrAOBpEro2Gz9z4KOM',
+    'cookie: ARRAffinity=41ff0004ce8df3d9628feaa429dac636aae8608058c826da42492aaf5d27ed64',
+    'cookie: ARRAffinitySameSite=41ff0004ce8df3d9628feaa429dac636aae8608058c826da42492aaf5d27ed64',
+    'cookie: ai_user=Hia6v|2021-12-14T13:27:52.972Z',
+    'cookie: _fbp=fb.1.1639488473477.1907554004',
+    'cookie: _ga=GA1.2.1385467836.1639488474',
+    'cookie: _gid=GA1.2.713547754.1643060803',
+    'cookie: XSRF-TOKEN=CfDJ8GSmlGuD1UlJpAkFAD7JkBhm80iG0JRQgzKHxtlz3jqEKmgfwoQ3zPad2Qsn3TjowluUBoKjCtplenhK96XXEpkUCwfveyzRb69zwcBc0wuihGtJIM7vphylA8rTm8F76-e8f-tSqn4mBQK1PRdMaN0',
+    'cookie: ai_session=xgVtQ|1643060803480|1643060858930.7'
 	
 ));
 
-curl_setopt($ch, CURLOPT_POSTFIELDS, "CardHolderName=GABRIEL+OLIVEIRA&CardNumber=$cc&MonthAndYear=$mes+%2F+$ano&Cvv=$cvv&__RequestVerificationToken=CfDJ8GSmlGuD1UlJpAkFAD7JkBgI5Bm8W9tcmQHVGjVDD6D88y_CadnEg77HjHspNM90Piz4H8qM7dX2xNRd7ZrZ-2naOjAdOtK1L3agrvlYDh80HqDWLkxG5-arP-FfYDGa7t0O8A2cOhsjEIfjqg6TMg0");
+curl_setopt($ch, CURLOPT_POSTFIELDS, "CardHolderName=FELIPE+JONATHAN&CardNumber=$cc&MonthAndYear=$mes+%2F+$ano&Cvv=$cvv&__RequestVerificationToken=CfDJ8GSmlGuD1UlJpAkFAD7JkBi1ns4i18F9qNMFaO486p2S5oqHiFTh5KWuidmSAF2aULXRy2tnFWuQvxAJZfCPe9hYefSx75ggc1ZSSod5S7uvAS0ZxN375qLkbxW-Og3G7Bj-PZtj2EEY-zItMiTuQTc");
 $result = curl_exec($ch);
 
 #Fim
